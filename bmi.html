@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>EatSafe</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<a href="index.html"><img src="image/logo.png" id="logo"></a>
+		<a href="login.html" id="he"><h2 id="border">Login</h2></a>
+		<a href="index.html" id="he"><h2>Food Safety</h2></a>
+		<a href="index.html" id="he"><h2>Healthy Eating</h2></a>
+		<div id="nav">
+			
+		</div>
+		<center><h1>BMI Calculator</h1></center>
+		<input type="text" id="w" placeholder = "Weigth"><br>
+<input type="text" id="h" placeholder = "Heigth"><br><br>
+
+<button onclick="myFunction()">Calculate BMI</button>
+
+<p id="result"></p>
+
+<script>
+function myFunction() {
+  var weight = document.getElementById("w").value;
+  var height = document.getElementById("h").value;
+
+  var BMI = weight / (height * height);
+
+  document.getElementById("result").innerHTML = BMI;
+}
+</script>
+		
+		
+		<footer><center><p>K00255718</p></center></footer>
+	</body>
+</html>

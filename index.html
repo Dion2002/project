@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>EatSafe</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="rollover.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="rollover.css">
+	</head>
+	<body>
+	
+		<a href="index.html"><img src="image/logo.png" id="logo"></a>
+		
+		<a href="login.html" id="he"><h2 id="border">Login</h2></a>
+		<a href="index.html" id="he"><h2>Food Safety</h2></a>
+		<a href="index.html" id="he"><h2>Healthy Eating</h2></a>
+		<div id="nav">
+		
+		</div>	
+		
+		<div id="healthy">
+		<h1>Healthy Eating </h1>
+		<a href="index.html"><p>What is a healthy diet? ➤</p></a>
+		<a href="index.html"><p>Healthy meal ideas ➤</p></a>
+		<a href="family.html"><p>Family health ➤</p></a>
+		<a href="bmi.html"><p>BMI calculator ➤</p></a>
+		<a href="index.html"><p>Weight loss ➤</p></a>
+		</div>
+		<div id="foodimg">
+		
+		<img src="image/food.png" id="food"><br><br><br>
+		
+		<h3>What is a healthy diet?</h3>
+		</div>
+		<div id="foodimg2">
+		
+		
+		<ul id="image_rollovers">
+            <li><img src="image/family.jpeg" alt="" id="image/fam.jpg" class="food"></li>
+            
+        </ul>
+		<h3>Family Health</h3>
+		</div>
+		<label for="searchfield" id="searchbar">
+                    <input type="search" name="searchfield" id="searchfield" placeholder="Search...">
+                </label>
+		
+		
+		<footer><span id="clock"></span><center><p id="foota">K00255718</p></center>  </footer>
+		<script>
+
+
+// Define a function to display the current time
+function displayTime() {
+    let clock = document.querySelector("#clock"); // Get element with id="clock"
+    let now = new Date();                         // Get current time
+    clock.textContent = now.toLocaleTimeString(); // Display time in the clock
+}
+displayTime()                    // Display the time right away
+setInterval(displayTime, 1000);  // And then update it every second. 
+
+</script>
+
+	</body>
+</html>

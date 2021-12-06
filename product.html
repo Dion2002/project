@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>EatSafe</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<a href="index.html"><img src="image/logo.png" id="logo"></a>
+		<a href="index.html" id="he"><h2 id="border">Logout</h2></a>
+		<a href="index.html" id="he"><h2>Food Safety</h2></a>
+		<a href="index.html" id="he"><h2>Healthy Eating</h2></a>
+		<div id="nav">
+			
+		</div>
+		<center> <h1> Manage Products </h1> </center>   
+    <form action="index.html" method="post">  
+        <div class="container"> 
+<label for="cars">Options:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Delete</option>
+    <option value="saab">Edit</option>
+    <option value="fiat">Add</option>
+    
+  </select>		<br><br>
+            <label>Product : </label>   
+            <input type="text" placeholder="Product Name" name="username" required>  
+            <label>Price : </label>   
+            <input type="text" placeholder="Enter Price" name="password" required>  
+			
+            <button type="submit" onclick = "ask()">Confirm</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            
+        </div>   
+    </form>    
+		
+		
+		<footer><center><p>K00255718</p></center></footer>
+		<script>
+			function ask(){
+				var answer = window.confirm("Are you sure?");
+if (answer) {
+    //some code
+}
+else {
+    //some code
+}
+			}
+		</script>
+	</body>
+</html>

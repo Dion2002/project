@@ -1,0 +1,132 @@
+#logo {width: 15%; margin-top: 20px; margin-left: 20px;}
+h2 {float: right; margin-left: 30px; color: #44C120; margin-top: 44px;}
+#head {float:left;}
+#pa {margin-left: 30px;}
+body {font-family: 'Raleway', sans-serif; margin: 0%;}
+#border {margin-right: 30px;}
+#nav {background-color: #38AA17; height: 20px; margin-top: 10px;}
+#nav h4 {color: white; margin-top: 20px;}
+#he:link, #he:visited {
+  background-color: white;
+  color: black;
+  padding: 2px 6px;
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+#he:hover, #he:active {
+  background-color: #E1E1E1;
+}
+
+h1 {color: #44C120; ; margin-top: 60px; margin-left: 40px;}
+
+/*#healthy {border: 2px solid black; width: 30%;}*/
+#healthy p {margin-left: 40px; color: black; font-weight: bold;}
+#healthy {float: left;}
+
+#food {width: 400px; float: right; margin-top: 60px; }
+.food{width: 400px; float: right; margin-top: 35px;}
+
+
+#foodimg {float: right; margin-right: 80px; }
+#foodimg2 {float: right; margin-right: 60px;}
+
+#foodimg h3{text-align: center;}
+#foodimg2 h3{text-align: center;}
+
+footer { position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #38AA17;
+  color: white;
+text-align: center;}
+
+a{text-decoration: none;}
+
+#ll {display: none;}
+
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer; 
+			width: 50%;
+				margin-left: 320px;
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: white;  
+    }   
+	
+	#reg {margin-left: 50px; float: right;}
+	
+	 #searchfield {
+                box-sizing: content-box;
+                font-size: 100%;
+                font-family: inherit;
+				
+            }
+
+            #searchfield {
+                background: white;
+                border: solid 1px black;
+                border-radius: 3px;
+
+                padding: 4px 5px 4px 5px;
+                width: 6em;
+
+                /* TODO: add the transition */
+                transition: all .3s;
+            }
+
+            /* TODO: Add the focus state */
+            #searchfield:focus {
+                width: 30em;
+                background-color: white;
+                border-color: purple;
+				color: purple;
+
+                box-shadow: 0 0 10px rgba(169, 109, 173, 1);
+            }
+			#searchbar {float: left; margin-left: 40px; margin-top: 10px;}
+			#searchfield {padding-right: 50px;}
+			
+			
+			#clock {                       
+  font: bold 24px sans-serif;   
+  background: green;             
+  padding: 5px;                
+  border: solid black 2px;      
+  border-radius: 5px; 
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+#foota {margin-right: 170px;}
